@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-size: 25px;
+    list-style: none;
+}
+
+body{
+    background-color: lightgray;
+    
+}
+
+
+/* Global */
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   padding: 2px;
+}
+
+.ul{
+  
+    margin-right:2rem;
+    
+}
+
+/* Header */
+
+header{
+    background-color: black;
+    color: #eee;
+    position: relative;
+    top: 0%;
+    padding-bottom: 15px;
+    margin: 0;
+    min-height: 1px;
+
+}
+
+span img.profile-img {
+    background-image: url(/images/Profile.JPG);
+    height:90px;
+    width: 90px;
+    position: relative;
+    top: 0;    
+    padding: 0;
+    margin-top:0;
+    margin-right: auto;
+    float: left;
+    border-radius: 60px;
+}
+
+ .highlight {  
+    display: inline; 
+    font-family: 'Streamster';
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-right: 1rem;
+    position: relative;
+    
+}
+
+header h1{
+   font-family: 'Goldman', cursive;
+   position: relative;
+   left: 150px;
+   top: 20px;
+   padding:2px;
+   font-size: 25px;
+}
+
+header a{
+    color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+header #branding {
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+header #branding h1{
+    margin-right: 2rem;
+    display: inline;    
+}
+
+/* Nav */
+
+nav ul li {
+    display: inline;
+    position: relative;
+    top: 20pxpx;
+    margin-right:2rem;
+    padding: 0;
+   font-family: 'Goldman';
+   
+
+}
+
+header .highlight, header .current a{
+    color: rgba(0, 0, 255, 0.699);
+    
+}
+
+header a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+
+section .cards {
+
+    display: column;
+    color: black;
+
+    /* grid-template-columns: 30px;
+    grid-template-rows: 21px 21px 10px;
+    grid-template-areas: "image" "text" "stats"; */
+}
+
+
+.project-sec{
+    text-align: center;
+}
+
+.project-sec h1{
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: 'Goldman';
+} 
+
+.project-sec p{
+    margin-top: 50px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.contact-sec{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-sec h1{
+    font-family: 'Goldman';
+}
