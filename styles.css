@@ -153,3 +153,54 @@ section .cards {
 .contact-sec h1{
     font-family: 'Goldman';
 }
+
+/* Boxes */
+ .container-box {
+    display: flex;
+    text-align: center;
+    background-image: url(/images/bg3.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+}
+
+.html-logo, .css-logo, .gd-logo{
+    height: 80px;
+    width: 80px;
+    border: 3px solid;
+    padding: 10px;
+    margin-top: 4px 2px 0 0;
+     
+}
+
+.box>h3, p{
+    color: white;
+    text-shadow: 2px 2px  black ;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box>h3{
+    text-decoration: underline white 2px;
+}
+
+.box>p{
+    margin-left: 1rem;
+    padding-top: 10px;
+    font-size: 13px;
+}
+  /* Footer */
+  footer>p {
+    font-family: 'Goldman';
+    padding: 20px;
+    margin-top: 90px;
+    color: black;
+    text-align: center;
+    text-shadow: none;
+
+}
